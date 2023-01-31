@@ -1,12 +1,16 @@
-// TABLE BY FOR LOOP:
+// //TABLE BY DO WHILE LOOP:
+// #include <stdio.h>
+// int main(){
+//     int i;
+//     printf("enter the number for its table = ");
+//     scanf("%d",&i);
+//     for(int a=1;a<1=0;a++){
+//          printf("%d x %d = %d\n",i,a,i*a);
+//     }
+//     return 0;
+// }
 #include <stdio.h>
 int main(){
-    int a=1,i;
-    printf("enter the number for its table = ");
-    scanf("%d",&i);
-    do{
-        printf("%d * %d = %d\n",i,a,i*a);
-        a++;
-    }while(a<=10);
+    
     return 0;
 }
