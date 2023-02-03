@@ -1,0 +1,3 @@
+NAME   SALARY
+pawan  4505555
+satish  446432150
