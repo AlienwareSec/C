@@ -8,13 +8,13 @@ int main(){
     printf("Enter the operator from '+','-','*','/': ");
     scanf("%c",&opt);
     switch(opt){
-        case '+': printf("the sum of %lf and %lf is %lf",a,b,a+b);
+        case '+': printf("the sum of %0.1lf and %0.1lf is %0.1lf",a,b,a+b);
         break;
-        case '-': printf("the difference of %lf and %lf is %lf",a,b,a-b);
+        case '-': printf("the difference of %0.1lf and %0.1lf is %0.1lf",a,b,a-b);
         break;
-        case '*': printf("the multiplication of %lf and %lf is %lf",a,b,a*b);
+        case '*': printf("the multiplication of %0.1lf and %0.1lf is %0.1lf",a,b,a*b);
         break;
-        case '/': printf("the division of %lf and %lf is %lf",a,b,a/b);
+        case '/': printf("the division of %0.1lf and %0.1lf is %0.1lf",a,b,a/b);
         break;
         default:
         printf("Error! operator is not correct");

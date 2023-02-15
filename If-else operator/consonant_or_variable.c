@@ -1,3 +1,4 @@
+//Method 1:
 #include <stdio.h>
 int main(){
     char ch;
@@ -9,5 +10,37 @@ int main(){
     printf("Character is a upper cased vowel");
     else
     printf("Character is a consonant");
+    return 0;
+}
+//Method 2:
+#include <stdio.h>
+int main(){
+    char ch;
+    printf("Enter the character : ");
+    scanf("%c",&ch);
+    if(ch=='a')
+    printf("it is a vowel");
+    else if(ch=='a')
+    printf("it is a vowel");
+    else if(ch=='e')
+    printf("it is a vowel");
+    else if(ch=='i')
+    printf("it is a vowel");
+    else if(ch=='o')
+    printf("it is a vowel");
+    else if(ch=='u')
+    printf("it is a vowel");
+    else if(ch=='A')
+    printf("it is a vowel");
+    else if(ch=='E')
+    printf("it is a vowel");
+    else if(ch=='I')
+    printf("it is a vowel");
+    else if(ch=='O')
+    printf("it is a vowel");
+    else if(ch=='U')
+    printf("it is a vowel");
+    else
+    printf("It is a consonant");
     return 0;
 }
