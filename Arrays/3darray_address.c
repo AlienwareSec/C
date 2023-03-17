@@ -5,7 +5,7 @@ int main(){
         for(int j=0;j<3;j++){
             for(int k=0;k<2;k++){
                 int *ptr=&_3darr[i][j][k];
-                printf("The address of [%d][%d][%d] is %d\n",i,j,k,ptr);
+                printf("The address of [%d][%d][%d] is %u\n",i,j,k,ptr);
             }
         }
     }
